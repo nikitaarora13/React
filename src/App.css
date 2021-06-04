@@ -1,0 +1,130 @@
+/*$radius: 0.2rem;
+
+*,
+*::before,
+*::after{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+
+}*/
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,700&display=swap');
+
+
+.heading{
+
+  font-size: 200%;
+  font-family: 'Nunito', sans-serif;
+  font-weight: bolder;
+  color: #ad8843;
+
+}
+.App {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  text-align: center;
+  background-color: #ffe8db;
+background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 1600 800'%3E%3Cg %3E%3Cpolygon fill='%23f5d3cf' points='1600 160 0 460 0 350 1600 50'/%3E%3Cpolygon fill='%23ecbec3' points='1600 260 0 560 0 450 1600 150'/%3E%3Cpolygon fill='%23e2a8b8' points='1600 360 0 660 0 550 1600 250'/%3E%3Cpolygon fill='%23d993ac' points='1600 460 0 760 0 650 1600 350'/%3E%3Cpolygon fill='%23cf7ea0' points='1600 800 0 800 0 750 1600 450'/%3E%3C/g%3E%3C/svg%3E");
+background-attachment: fixed;
+background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  
+}
+
+h1{
+  font-size: 6rem;
+}
+ 
+
+.btn1{
+  margin: 10px;
+  border: none;
+  background-color: white;
+  
+  box-shadow: 0px 0px 5px #949294;
+  font-weight: bold;
+  font-size: 2rem;
+  color: inherit;
+  border-radius: 50%;
+  height: 4rem;
+  width: 4rem;
+  cursor: pointer;
+  outline: none;
+  transition: 
+    background-color 250ms ease-in-out; 
+    transform: 59ms ease-in-out; ;
+}
+
+.btn2{
+ 
+  border: none;
+  background-color: white;
+  
+  box-shadow: 0px 0px 5px #949294;
+  font-weight: bold;
+  font-size: 2rem;
+  color: inherit;
+  border-radius: 12%;
+  height: 4rem;
+  width: 7rem;
+  cursor: pointer;
+  outline: none;
+  transition: 
+    background-color 250ms ease-in-out; 
+    transform: 59ms ease-in-out;
+
+
+}
+
+.btn3{
+  margin: 10px;
+  border: none;
+  background-color: white;
+  
+  box-shadow: 0px 0px 5px #949294;
+  font-weight: bold;
+  font-size: 2rem;
+  color: inherit;
+  border-radius: 50%;
+  height: 4rem;
+  width: 4rem;
+  cursor: pointer;
+  outline: none;
+  transition: 
+    background-color 250ms ease-in-out; 
+    transform: 59ms ease-in-out;
+
+}
+button::hover{
+        background-color: #949294;
+      }
+
+button::active{
+transform:scale(0.9) ;
+      }
+
+
+
+.negative{
+  color:red;
+  animation: pulse 500ms ease-in-out;
+}
+
+.positive{
+  color:green;
+  animation: pulse 500ms ease-in-out;
+}
+
+@keyframes pulse {
+ 0%,100%{
+   transform: scale(1);
+ }  
+ 50%{
+   transform: scale(1.2);
+ }
+}
+
+
